@@ -112,6 +112,22 @@ app.get("/user",usermiddleware,async(req,res)=>{
 
 
 
+app.post("/url",usermiddleware,async(req,res)=>{
+
+
+    let {url,shortkey}=req.body;
+
+    
+
+
+
+    
+
+
+})
+
+
+
 
 
 app.listen(4000);
